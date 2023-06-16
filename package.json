@@ -1,6 +1,6 @@
 {
     "name": "zoom-images-slider",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Zoom in left or right part of an image in a slider",
     "main": "index.js",
     "scripts": {
