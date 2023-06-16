@@ -1,0 +1,26 @@
+{
+  "name": "zoom-images-slider",
+  "version": "1.0.0",
+  "description": "Zoom in left or right part of an image in a slider",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huanth/zoom-images-slider.git"
+  },
+  "keywords": [
+    "zoom",
+    "slider",
+    "zoom",
+    "slider",
+    "reactjs"
+  ],
+  "author": "HuanTH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huanth/zoom-images-slider/issues"
+  },
+  "homepage": "https://github.com/huanth/zoom-images-slider#readme"
+}

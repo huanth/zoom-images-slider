@@ -1,0 +1,226 @@
+.block_content.block-1.step-5 {
+    margin-top: 5vw;
+    margin-top: 8vw;
+    margin-bottom: 10vw;
+}
+
+.block_content.block-1.step-5 .slider {
+    margin: 0;
+}
+
+.button-step5 {
+    box-shadow: 4px 8px 50px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    border-radius: 50%;
+    width: 6.858vw;
+    height: 6.858vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.group-button {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+.group-button.top {
+    max-width: 29.001vw;
+    margin-right: 0;
+}
+
+.group-button.bottom {
+    justify-content: center;
+}
+
+.group-button.bottom {
+    justify-content: space-between;
+}
+
+.group-button.bottom .zoom-button {
+    opacity: 0;
+}
+
+.group-button.bottom.zoom .zoom-button {
+    opacity: 1;
+}
+
+.group-button.bottom.zoom .zoom-button.active {
+    opacity: 0;
+}
+
+.button-step5 svg {
+    max-width: 2vw;
+    width: 100%;
+    height: auto;
+}
+
+.button-step5.disable {
+    opacity: 0;
+    cursor: default;
+}
+
+.button-step5.button-zoom.zoomed {
+    background: #C3345B;
+}
+
+.button-step5.button-zoom svg {
+    max-width: 3.286vw;
+}
+
+.group-button.bottom .qr {
+    max-width: 16.329vw;
+    width: 100%;
+    height: 16.329vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 8px 50px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+}
+
+.button-step5.zoom-button.active {
+    opacity: 0;
+    cursor: default;
+}
+
+.button-step5.button-zoom.zoomed svg path {
+    stroke: #fff;
+}
+
+.box.zoomed {
+    cursor: grab;
+}
+
+.box.zoomed:active {
+    cursor: grabbing;
+}
+
+.box {
+    max-width: 86.283vw;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 21vw;
+    margin-top: 21.5vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: inherit;
+    transition: transform 0.2s;
+    -webkit-transition: transform 0.2s;
+    -moz-transition: transform 0.2s;
+    -ms-transition: transform 0.2s;
+    -o-transition: transform 0.2s;
+}
+
+.box.zoom {
+    transform: scale(1.415);
+    -webkit-transform: scale(1.415);
+    -moz-transform: scale(1.415);
+    -ms-transform: scale(1.415);
+    -o-transform: scale(1.415);
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform .2s;
+    -webkit-transition: transform .2s;
+    -moz-transition: transform .2s;
+    -ms-transition: transform .2s;
+    -o-transition: transform .2s;
+}
+
+.box .item {
+    position: relative;
+    transition: transform .2s ease-in-out;
+    -webkit-transition: transform .2s ease-in-out;
+    -moz-transition: transform .2s ease-in-out;
+    -ms-transition: transform .2s ease-in-out;
+    -o-transition: transform .2s ease-in-out;
+}
+
+.box.zoom .item {
+    width: 100%;
+    height: auto;
+}
+
+.transition {
+    transition: transform 0.2s;
+    -webkit-transition: transform 0.2s;
+    -moz-transition: transform 0.2s;
+    -ms-transition: transform 0.2s;
+    -o-transition: transform 0.2s;
+}
+
+.box .item div {
+    background: transparent !important;
+    height: 57.511vw;
+}
+
+.group-button.bottom .qr img {
+    width: 100%;
+    max-width: 8.818vw;
+    height: 8.818vw;
+}
+
+.box .item {
+    position: absolute;
+    height: inherit;
+    opacity: 0;
+}
+
+.box .item.active {
+    transition: transform .4s;
+    -webkit-transition: transform .4s;
+    -moz-transition: transform .4s;
+    -ms-transition: transform .4s;
+    -o-transition: transform .4s;
+    opacity: 1;
+    width: 100%;
+}
+
+.box .item.zoom-left {
+    transform: translateX(-2%);
+    -webkit-transform: translateX(-2%);
+    -moz-transform: translateX(-2%);
+    -ms-transform: translateX(-2%);
+    -o-transform: translateX(-2%);
+}
+
+.box .item.zoom-right {
+    transform: translateX(2%);
+    -webkit-transform: translateX(2%);
+    -moz-transform: translateX(2%);
+    -ms-transform: translateX(2%);
+    -o-transform: translateX(2%);
+}
+
+.box .item.prev {
+    transform: translateX(-100%);
+    transition: transform .2s;
+    -webkit-transition: transform .2s;
+    -moz-transition: transform .2s;
+    -ms-transition: transform .2s;
+    -o-transition: transform .2s;
+    opacity: 0;
+}
+
+.box .item.next {
+    transform: translateX(100%);
+    transition: transform .2s;
+    -webkit-transition: transform .2s;
+    -moz-transition: transform .2s;
+    -ms-transition: transform .2s;
+    -o-transition: transform .2s;
+    opacity: 0;
+}
+
+.box {
+    height: 60.5vw;
+}
