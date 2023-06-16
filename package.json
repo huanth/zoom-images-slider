@@ -1,6 +1,6 @@
 {
     "name": "zoom-images-slider",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Zoom in left or right part of an image in a slider",
     "main": "index.js",
     "scripts": {
@@ -22,5 +22,9 @@
     "bugs": {
         "url": "https://github.com/huanth/zoom-images-slider/issues"
     },
-    "homepage": "https://github.com/huanth/zoom-images-slider#readme"
+    "homepage": "https://github.com/huanth/zoom-images-slider#readme",
+    "dependencies": {
+        "@babel/preset-env": "^7.22.5",
+        "@babel/preset-react": "^7.22.5"
+    }
 }
