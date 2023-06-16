@@ -22,9 +22,5 @@
     "bugs": {
         "url": "https://github.com/huanth/zoom-images-slider/issues"
     },
-    "homepage": "https://github.com/huanth/zoom-images-slider#readme",
-    "dependencies": {
-        "@babel/preset-env": "^7.22.5",
-        "babel-loader": "^9.1.2"
-    }
+    "homepage": "https://github.com/huanth/zoom-images-slider#readme"
 }
