@@ -1,6 +1,6 @@
 {
     "name": "zoom-images-slider",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "Zoom in left or right part of an image in a slider",
     "main": "index.js",
     "scripts": {
@@ -26,5 +26,8 @@
     "dependencies": {
         "@babel/preset-env": "^7.22.5",
         "@babel/preset-react": "^7.22.5"
+    },
+    "devDependencies": {
+        "@babel/plugin-syntax-jsx": "^7.22.5"
     }
 }
